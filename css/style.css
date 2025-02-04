@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#box {
+    background-color: antiquewhite;
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+header {
+    border: 3px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+header h1 {
+    letter-spacing: 15px;
+    text-shadow: 3px 3px 20px #395cf8;
+}
+
+header li {
+    background-color: rgb(196, 109, 77);
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+}
+
+header li a {
+    color: white;
+}
+header li:hover a {
+    color: black;
+}
+
+header li:hover {
+    background-color: white;
+}
+
+#list h2 {
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+}
+
+#list {
+    margin: 10px;
+    padding: 10px;
+}
+
+#list li:nth-child(1) {
+    background-color: white;
+    color: rgba(2, 53, 73, 0.733);
+}
+
+#list li:nth-child(1):before {
+    content: "before쓰기!";
+    color: rgb(15, 117, 117);
+}
+
+section {
+    border: 3px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+section#recommend h2{
+    background-color: azure;
+    border: 3px solid whitesmoke;
+    margin: 10px;
+
+}
+section#tip h2{
+    background-color: azure;
+    border: 3px solid whitesmoke;
+    margin: 10px;
+
+}
+
+#list li:nth-child(2n+1) {
+    text-align: left;
+}
+#list li:nth-child(2n) {
+    text-align: right;
+}
+
+#tip li {
+    text-align: left;
+}
+
+#tip li:not(.point){
+    text-align: right;
+}
+
+
+
+#contact li {
+    text-align: left;
+}
